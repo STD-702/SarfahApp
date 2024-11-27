@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etFirstName"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="First Name" />
+
+    <EditText
+        android:id="@+id/etMiddleName"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Middle Name" />
+
+    <EditText
+        android:id="@+id/etLastName"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Last Name" />
+
+    <EditText
+        android:id="@+id/etDelegatePhone"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Delegate Phone"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnCreateDelegate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Delegate" />
+
+    <EditText
+        android:id="@+id/etDelegateId"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Delegate Phone Number" />
+
+    <Button
+        android:id="@+id/btnDeleteDelegate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete Delegate" />
+
+    <Button
+        android:id="@+id/btnLoadDelegates"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Load Delegates" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="16dp" />
+</LinearLayout>
