@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_about"
+        android:title="About Us"
+        />
+    <item
+        android:id="@+id/nav_contact"
+        android:title="Contact Us" />
+    <item
+        android:id="@+id/nav_create_delegate"
+        android:title="Create Delegate" />
+    <item
+        android:id="@+id/nav_show_requests"
+        android:title="Show Requests" />
+</menu>

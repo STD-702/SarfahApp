@@ -1,0 +1,31 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewRequests"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/btnAddStudents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Students" />
+    <Button
+        android:id="@+id/btnCreateAcademic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Teacher Account"/>
+
+    <Button
+        android:id="@+id/btnCreateGuard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Security Guard Account"/>
+
+
+</LinearLayout>
